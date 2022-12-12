@@ -3,7 +3,7 @@ try:
 except:
    from collections.abc import MutableMapping
 from threading import RLock
-from inspect import getargspec
+#from inspect import getfullargspec
 from copy import copy
 
 def get_version():
